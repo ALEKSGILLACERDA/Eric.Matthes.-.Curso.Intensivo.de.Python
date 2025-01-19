@@ -1,5 +1,6 @@
-alien_0 = {'color': 'green', 'points': 5, 'x_position': 0, 'y_position': 25}
+alien_0 = {}
 
+alien_0['colors'] = 'green'
+alien_0['points'] = 5
 
-new_points = alien_0['points']
 print(alien_0)
