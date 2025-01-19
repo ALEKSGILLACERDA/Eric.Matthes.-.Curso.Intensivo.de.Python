@@ -1,6 +1,4 @@
-alien_0 = {}
-
-alien_0['colors'] = 'green'
-alien_0['points'] = 5
-
-print(alien_0)
+alien_0 = {'color': 'green'}
+print('A cor do aline é ' + alien_0['color'] + '.')
+alien_0['color'] = 'yellow'
+print('A cor do alien agora é ' + alien_0['color'] + '.')
