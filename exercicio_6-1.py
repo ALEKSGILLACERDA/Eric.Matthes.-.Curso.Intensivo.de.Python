@@ -1,4 +1,5 @@
-pessoa = {'idade' : 29, 'cidade': 'SJM', 'nome': 'B', }
-print(pessoa['cidade'])
-print(pessoa['idade'])
-print(pessoa['nome'])
+favorite_languages = {'ana': 'java', 'bruno': 'py', 'belle': 'c', 'phill': 'c#'}
+friends = ['phill', 'ana']
+for names in favorite_languages.keys():
+    if names in friends:
+        print(f'Oi {names.title()}')
