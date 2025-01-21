@@ -1,9 +1,4 @@
-dimensions = (200, 50) 
-print("Original dimensions:")
+comidas = ('arroz', 'feijão', 'macarrão', 'carne', 'frango')
 
-for dimension in dimensions:
-    print(dimension)
-dimensions = (400, 100) 
-print("\nModified dimensions:") 
-for dimension in dimensions: 
-    print(dimension)
+for comida in comidas:
+    print(comida, end= ', ')
