@@ -1,16 +1,12 @@
 sandwich_orders = ['pastrami' ,'misto quente', 'pastrami' , 'podrão', 'artesanal', 'pastrami' ]
 finished_sandwiches = []
-new_sanduiches = []
-print('\n No momento estamos sem pastrami \n' )
-for sanduiche in sandwich_orders:
-    if sanduiche != 'pastrami':
-        new_sanduiches.append(sanduiche)
-    sanduiches_de_hoje = ', '.join(new_sanduiches)
-print(f'os sanduiches de hoje são {sanduiches_de_hoje}')
+new_sanduiches = []  #o exerxício pediu ra usar o laço while, mas não precisava, agora vou tentar fazer com o while
 
-for sanduiche in new_sanduiches:
-    print(f' preparei o seu {sanduiche}')
-    finished_sandwiches.append(sanduiche)
-print()
-for sauiche_pronto in finished_sandwiches:
-    print(f'o {sauiche_pronto} está pronto')
+print('\n Não temos pastrami.')
+
+while 'pastrami'in sandwich_orders:
+       sandwich_orders.remove('pastrami')
+
+for sanduiche in sandwich_orders:
+    print(f'O seu {sanduiche} está pronto')
+
